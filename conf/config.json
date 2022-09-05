@@ -1,0 +1,8 @@
+{
+    "datasource": {
+        "host": "10.10.1.229",
+        "user": "root",
+        "passwd": "sys",
+        "database": "siipapx"
+    }
+}
