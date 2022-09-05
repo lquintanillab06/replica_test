@@ -1,0 +1,7 @@
+/conf
+
+
+# misc
+.DS_Store
+*.pyc
+/requirements.txt
