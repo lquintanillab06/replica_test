@@ -9,23 +9,13 @@ from calendar import Calendar
 def main():
     #start_importacion()
     #start_exportacion()
-    #start_validacion()
-    start_sincronizacion()         
+    start_validacion()
+    #start_sincronizacion()         
     #start_procesos()
 
    # srv = VentaPorFacturista()
    # srv.actualizar_mes_anterior()
    
-
-
-   
-
-    
-
-
-
-
-
 
   
 if __name__== '__main__':

@@ -19,7 +19,7 @@ def get_sucursales_replica():
     return localDB.cursor.fetchall()
 
 def get_sucursal_replica(sucursal):
-    sql = "select * from data_source_replica where server = %(sucursal)s and activa is true and central is false and sucursal is true"
+    sql = "select * from data_source_replica where server = %(sucursal)s and activa is true"
     localDB = LocalDataBaseConnection()
     localDB.cursor.execute(sql,{'sucursal': sucursal})
     return localDB.cursor.fetchone()
